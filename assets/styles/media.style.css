@@ -1,0 +1,104 @@
+/* MEDIA QUERY FOR RESPONSIVE WEB */
+@media only screen and (max-width: 1600px) {
+  .swiper-slide-button {
+    display: none;
+  }
+}
+@media only screen and (max-width: 900px) {
+  header {
+    padding: 0 30px;
+  }
+  .cipta__services .row {
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+  }
+  .cipta__services .box {
+    border-radius: 1rem;
+  }
+  .swiper-slide-button {
+    display: none;
+  }
+}
+@media only screen and (max-width: 700px) {
+  .hamburger {
+    display: block;
+  }
+  header nav {
+    position: absolute;
+    width: 100%;
+    left: -100%;
+    top: 64px;
+    width: 100%;
+    background-color: var(--content-color);
+    padding: 30px;
+    transition: 0.3s;
+    z-index: 9999;
+    box-shadow: -1px 7px 9px -5px rgba(135,139,143,0.76);
+    -webkit-box-shadow: -1px 7px 9px -5px rgba(135,139,143,0.76);
+    -moz-box-shadow: -1px 7px 9px -5px rgba(135,139,143,0.76);
+  }
+  header #nav__check:checked ~ nav {
+      left: 0;
+  }
+  header nav ul {
+      display: block;
+  }
+  header nav ul li a {
+      margin: 5px 0;
+  }
+  .sub__desc {
+    font-size: small;
+    padding: 20px 10px;
+  }
+  .testimonial {
+    width: 80%;
+  }
+  .cipta__testimonial h1 {
+    font-size: 2rem;
+    padding: 0 20px;
+  }
+  .testimonial .role__clients {
+    width: 50%;
+  }
+  .cipta__services .row {
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+  }
+  .content__footer {
+    flex-wrap: wrap;
+    justify-content: left;
+  }
+  .service__area {
+    flex-wrap: wrap;
+    justify-content: left;
+  }
+  .service__header {
+    margin-left: 0;
+    margin-right: 40px;
+  }
+  .social__media {
+    margin-bottom: 1rem;
+  }
+  .footer__bottom {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}
+
+@media (max-width: 600px) {
+  section {
+    padding: 20px;
+  }
+}
+
+@media screen and (max-width: 510px) {
+  .service__header {
+      margin-bottom: 8px;
+  }
+  .copy__right {
+      margin-bottom: 8px;
+  }
+}
+
